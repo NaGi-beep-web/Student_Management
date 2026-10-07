@@ -1,3 +1,6 @@
 def get_student_name() :
     return "Mehdi"
-print(get_student_name())
+def greeting():
+    return "Welcome " + get_student_name()
+
+print(greeting())
